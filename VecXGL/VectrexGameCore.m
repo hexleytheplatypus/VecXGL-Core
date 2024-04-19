@@ -29,7 +29,6 @@
 #import "VectrexGameCore.h"
 
 #import <OpenEmuBase/OERingBuffer.h>
-#import <OpenGL/gl.h>
 #import "vecx.h"
 #import "osint.h"
 
@@ -166,14 +165,14 @@ VectrexGameCore *g_core;
     return NULL;
 }
 
-- (GLenum)pixelFormat
+- (uint32_t)pixelFormat
 {
-    return GL_BGRA;
+    return OEPixelFormat_BGRA;
 }
 
-- (GLenum)pixelType
+- (uint32_t)pixelType
 {
-    return GL_UNSIGNED_INT_8_8_8_8;
+    return OEPixelType_UNSIGNED_INT_8_8_8_8;
 }
 
 - (GLenum)internalPixelFormat

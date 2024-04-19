@@ -24,10 +24,8 @@
 /* Begin PBXBuildFile section */
 		98150A8416D412E90085EBA2 /* OpenEmuBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98150A8316D412E90085EBA2 /* OpenEmuBase.framework */; };
 		982C136017153B1500E47845 /* e8910.c in Sources */ = {isa = PBXBuildFile; fileRef = 982C135E17153B1500E47845 /* e8910.c */; };
-		986F323716D3FF4F00BB38E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986F323616D3FF4F00BB38E2 /* Cocoa.framework */; };
 		986F324116D3FF4F00BB38E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 986F323F16D3FF4F00BB38E2 /* InfoPlist.strings */; };
 		986F325116D4014B00BB38E2 /* VectrexGameCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 986F325016D4014B00BB38E2 /* VectrexGameCore.m */; };
-		986F326F16D4096500BB38E2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986F326E16D4096500BB38E2 /* OpenGL.framework */; };
 		986F327F16D40A9100BB38E2 /* e6809.c in Sources */ = {isa = PBXBuildFile; fileRef = 986F327216D40A9100BB38E2 /* e6809.c */; };
 		986F328116D40A9100BB38E2 /* loadTGA.c in Sources */ = {isa = PBXBuildFile; fileRef = 986F327516D40A9100BB38E2 /* loadTGA.c */; };
 		986F328216D40A9100BB38E2 /* osint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986F327616D40A9100BB38E2 /* osint.m */; };
@@ -81,8 +79,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				98150A8416D412E90085EBA2 /* OpenEmuBase.framework in Frameworks */,
-				986F326F16D4096500BB38E2 /* OpenGL.framework in Frameworks */,
-				986F323716D3FF4F00BB38E2 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
